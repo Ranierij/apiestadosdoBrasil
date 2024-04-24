@@ -53,7 +53,7 @@ Another way is to fetch directly from the route or from the repository file.
 2. Fetch from the route and consume from there.
 
 ```typescript
-    fetch("https://api.github.com/users/Yagasaki7K")
+    fetch("https://api.github.com/users/Ranierij")
         .then(response => response.json())
         .then(data => {
             setDataAPI(data) // If you're using a State of React for example.
@@ -64,7 +64,7 @@ Another way is to fetch directly from the route or from the repository file.
 2.1 Fetch directly from the file in the repository - less recommended.
 
 ```typescript
-    fetch("https://github.com/Yagasaki7K/api-estadosdobrasil/blob/main/database.json")
+    fetch("https://github.com/Ranierij/api-estadosdobrasil/blob/main/database.json")
         .then(response => response.text())
         .then(data => {
             setDataAPI(data) // If you're using a State of React for example.
@@ -73,7 +73,7 @@ Another way is to fetch directly from the route or from the repository file.
 ```
 
 ## How to Contribute?
-If you have ideas, you can contribute to the repository on [GitHub](https://github.com/Yagasaki7K/api-estadosdobrasil),
+If you have ideas, you can contribute to the repository on [GitHub](https://github.com/Ranierij/api-estadosdobrasil),
 following the basic concepts of a pull request - we don't have a specific template for this.
 
 ## Tests
